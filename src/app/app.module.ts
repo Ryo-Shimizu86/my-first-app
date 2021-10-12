@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './common/navbar/navbar.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { MyProductListComponent } from './my-product-list/my-product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     AppComponent,
     NavbarComponent,
     ProductListComponent,
-    MyProductListComponent,
     ProductDetailComponent
   ],
   imports: [
